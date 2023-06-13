@@ -1,0 +1,30 @@
+/*Importar fuentes externas teniendolas*/
+@font-face {
+    font-family: PoppinsCustom;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+body{
+    background:cadetblue;
+}
+h1{
+    font-family: PoppinsCustom;
+    font-style:italic;
+    text-transform: uppercase;
+    /*Colores hexadecimal*/
+    color: #11429efb;
+}
+h3{
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    font-weight: lighter;
+    /*Colores del sistema*/
+    color: olive;
+}
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+     /*Colores RGB y RGBA*/
+    color: rgb(12, 45, 43);
+    color: rgba(40, 90, 199, .8);
+}
